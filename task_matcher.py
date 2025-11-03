@@ -7,6 +7,7 @@ def index_scripts(script_folder="scripts/", index_file="script_index.txt"):
                 f.write(file + "\n")
 
 def generate_embeddings(index_file="script_index.txt"):
+    import pickle
     from sentence_transformers import SentenceTransformer
     model = SentenceTransformer("all-MiniLM-L6-v2")
     with open(index_file) as f:
@@ -16,6 +17,7 @@ def generate_embeddings(index_file="script_index.txt"):
         pickle.dump((scripts, embeddings), f)
 
 def match_command(user_input):
+    import pickle, numpy as np
     from sentence_transformers import SentenceTransformer
     from sklearn.metrics.pairwise import cosine_similarity
     model = SentenceTransformer("all-MiniLM-L6-v2")

@@ -3,7 +3,7 @@ import datetime
 import os
 
 def take_screenshot():
-    folder = r"C:\Users\mohan\OneDrive\Pictures\Screenshots"
+    folder = os.path.join(os.path.expanduser("~"), "Pictures", "Screenshots")
     os.makedirs(folder, exist_ok=True)
 
     # Create timestamp for unique filename
