@@ -1,1 +1,1 @@
-happy.py
+screenshot_taker.py
