@@ -171,3 +171,81 @@ UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f642' in posit
 2025-11-04 08:38:38,477	INFO	Matched user_input='Analyze the WhatsApp chat.' -> script=whatsapp_chat_analyser.py score=0.5862
 2025-11-04 08:38:41,319	INFO	Dry-run for whatsapp_chat_analyser.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\whatsapp_chat_analyser.py  (ok=True)
 2025-11-04 08:38:44,473	INFO	Script executed: whatsapp_chat_analyser.py
+2025-11-04 08:46:03,709	INFO	Matched user_input='Let me know where you are being.' -> script=whatsapp_chat_analyser.py score=0.0860
+2025-11-04 08:46:08,894	INFO	User aborted low-confidence match for whatsapp_chat_analyser.py
+2025-11-04 08:46:27,657	INFO	Matched user_input='Remind me in five seconds that I need to work on.' -> script=voice_reminder_timer.py score=0.2839
+2025-11-04 08:46:30,996	INFO	Dry-run for voice_reminder_timer.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\voice_reminder_timer.py  (ok=True)
+2025-11-04 08:46:32,824	ERROR	Script execution failed: voice_reminder_timer.py -> Script failed: Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\scripts\voice_reminder_timer.py", line 30, in <module>
+    import speech_recognition as sr # pyright: ignore[reportMissingImports]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'speech_recognition'
+2025-11-04 08:47:57,058	INFO	Matched user_input='Am I in mean 5 seconds, do both of them.' -> script=voice_reminder_timer.py score=0.1481
+2025-11-04 08:48:04,127	INFO	User aborted low-confidence match for voice_reminder_timer.py
+2025-11-04 08:52:58,470	INFO	Matched user_input='Remind me five seconds to work out.' -> script=voice_reminder_timer.py score=0.2958
+2025-11-04 08:53:03,175	INFO	Dry-run for voice_reminder_timer.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\voice_reminder_timer.py  (ok=True)
+2025-11-04 08:53:07,089	INFO	Script executed: voice_reminder_timer.py
+2025-11-04 09:45:25,886	INFO	Matched user_input='Take a screen shot.' -> script=screenshot_taker.py score=0.4789
+2025-11-04 09:45:29,155	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 09:45:31,425	INFO	Script executed: screenshot_taker.py
+2025-11-04 09:45:55,549	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 09:46:00,649	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 09:46:02,457	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 09:46:50,800	INFO	Matched user_input='analyze the WhatsApp chart.' -> script=whatsapp_chat_analyser.py score=0.4933
+2025-11-04 09:46:53,071	INFO	Dry-run for whatsapp_chat_analyser.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\whatsapp_chat_analyser.py  (ok=True)
+2025-11-04 09:46:54,548	INFO	Script executed: whatsapp_chat_analyser.py
+2025-11-04 09:47:44,267	INFO	Matched user_input="Don't mind, don't mind, don't in five seconds, we'll work out." -> script=voice_reminder_timer.py score=0.1926
+2025-11-04 09:47:46,893	INFO	User aborted low-confidence match for voice_reminder_timer.py
+2025-11-04 09:48:05,436	INFO	Matched user_input='set a reminder in 5 seconds to work out.' -> script=voice_reminder_timer.py score=0.4499
+2025-11-04 09:48:08,369	INFO	Dry-run for voice_reminder_timer.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\voice_reminder_timer.py  (ok=True)
+2025-11-04 09:48:10,612	INFO	Script executed: voice_reminder_timer.py
+2025-11-04 09:48:44,172	INFO	Matched user_input='Take a screen shot.' -> script=screenshot_taker.py score=0.4789
+2025-11-04 09:48:52,361	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 09:48:53,961	INFO	Script executed: screenshot_taker.py
+2025-11-04 09:49:29,934	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 09:49:32,138	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 09:49:33,756	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 09:50:13,505	INFO	Matched user_input='Analyze the WhatsApp chart of GNDU Tech Club.' -> script=whatsapp_chat_analyser.py score=0.3274
+2025-11-04 09:50:15,596	INFO	Dry-run for whatsapp_chat_analyser.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\whatsapp_chat_analyser.py  (ok=True)
+2025-11-04 09:50:17,441	INFO	Script executed: whatsapp_chat_analyser.py
+2025-11-04 09:57:33,134	INFO	Matched user_input='That a reminder for 5 seconds to sleep.' -> script=voice_reminder_timer.py score=0.4150
+2025-11-04 09:57:39,004	INFO	Dry-run for voice_reminder_timer.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\voice_reminder_timer.py  (ok=True)
+2025-11-04 09:57:41,254	INFO	Script executed: voice_reminder_timer.py
+2025-11-04 10:01:31,615	INFO	Matched user_input='Reminding 10 seconds to drink water.' -> script=voice_reminder_timer.py score=0.4458
+2025-11-04 10:01:34,062	INFO	Dry-run for voice_reminder_timer.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\voice_reminder_timer.py  (ok=True)
+2025-11-04 10:01:36,243	INFO	Script executed: voice_reminder_timer.py
+2025-11-04 10:05:53,053	INFO	Matched user_input='Remind me in 10 seconds to drink water.' -> script=voice_reminder_timer.py score=0.3932
+2025-11-04 10:05:57,479	INFO	Dry-run for voice_reminder_timer.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\voice_reminder_timer.py  (ok=True)
+2025-11-04 10:05:59,666	INFO	Script executed: voice_reminder_timer.py
+2025-11-04 10:08:41,392	INFO	Matched user_input='Remind me in 10 seconds to drink water.' -> script=voice_reminder_timer.py score=0.3932
+2025-11-04 10:08:48,550	INFO	User aborted low-confidence match for voice_reminder_timer.py
+2025-11-04 10:20:58,529	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 10:21:00,975	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 10:21:02,863	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 10:22:55,924	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 10:22:58,130	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 10:22:59,792	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 10:23:45,130	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 10:23:47,081	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 10:24:02,229	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 10:26:01,856	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 10:26:04,015	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 10:26:07,029	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 10:26:39,864	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 10:26:42,650	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 10:26:43,959	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 10:27:14,844	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 10:27:16,936	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 10:27:18,527	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 10:27:46,279	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 10:27:48,842	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 10:27:50,697	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 10:31:57,999	INFO	Matched user_input='Windows side by side.' -> script=screen_tiler_grid.py score=0.1808
+2025-11-04 10:32:01,051	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 10:32:02,768	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 10:35:26,765	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 10:35:32,445	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 10:35:38,637	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 10:36:33,106	INFO	Matched user_input='Open the windows side by side.' -> script=screen_tiler_grid.py score=0.1440
+2025-11-04 10:36:36,371	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 10:36:39,307	INFO	Script executed: screen_tiler_grid.py

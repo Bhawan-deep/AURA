@@ -126,3 +126,40 @@ def run_script(script_name: str, args: Optional[List[str]] = None, index_file: s
         return False, f"Script failed: {err}"
     except Exception as e:
         return False, f"Execution error: {e}"
+    
+def run_callable(script_name: str, args: dict, index_file: str = INDEX_FILE) -> Tuple[bool, str]:
+    """Attempt to run a whitelisted script via direct Python import and function call."""
+    import importlib.util
+    import inspect
+
+    # Validate whitelist
+    with open(index_file, "r", encoding="utf-8") as f:
+        allowed = {ln.strip() for ln in f if ln.strip()}
+    if script_name not in allowed:
+        return False, f"Script not allowed: {script_name}"
+
+    script_path = os.path.join(SCRIPTS_DIR, script_name)
+    if not os.path.isfile(script_path):
+        return False, f"Script not found: {script_path}"
+
+    try:
+        # Load module dynamically
+        spec = importlib.util.spec_from_file_location("target_module", script_path)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+
+        # Find callable entry point
+        entry = getattr(mod, "main", None) or getattr(mod, "run", None)
+        if not callable(entry):
+            return False, f"No callable entry point found in {script_name}"
+
+        # Validate signature
+        sig = inspect.signature(entry)
+        bound = sig.bind_partial(**args)
+        bound.apply_defaults()
+
+        # Execute
+        result = entry(**bound.arguments)
+        return True, str(result) if result is not None else "<no output>"
+    except Exception as e:
+        return False, f"Callable execution error: {e}"

@@ -61,7 +61,13 @@ def main():
     # Default: interactive text prompt
     try:
         user_input = input("Hukum krein aaka (in English please):\n")
-        disp.dispatch(user_input)
+        from intent_parser import parse_command
+        result = parse_command(user_input)
+        if result:
+            script_name, args = result
+            disp.dispatch(script_name=script_name, args=args)
+        else:
+            disp.dispatch(user_input)
     except KeyboardInterrupt:
         print("\nExiting.")
         return

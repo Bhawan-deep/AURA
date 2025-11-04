@@ -150,3 +150,133 @@ AttributeError: 'WhisperModel' object has no attribute 'device'
 2025-11-04 08:38:34,028	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpph1u61t2.wav: Analyze the WhatsApp chat.
 2025-11-04 08:38:34,028	INFO	Dispatching user_input: Analyze the WhatsApp chat.
 2025-11-04 08:38:44,475	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpph1u61t2.wav
+2025-11-04 08:45:55,910	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpnyxnvrtx.wav (duration=5s, rate=16000)
+2025-11-04 08:45:56,483	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 08:45:59,812	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpnyxnvrtx.wav: Let me know where you are being.
+2025-11-04 08:45:59,812	INFO	Dispatching user_input: Let me know where you are being.
+2025-11-04 08:46:08,894	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpnyxnvrtx.wav
+2025-11-04 08:46:19,671	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpowvl_yt9.wav (duration=5s, rate=16000)
+2025-11-04 08:46:20,539	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 08:46:21,126	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpowvl_yt9.wav: Remind me in five seconds that I need to work on.
+2025-11-04 08:46:21,127	INFO	Dispatching user_input: Remind me in five seconds that I need to work on.
+2025-11-04 08:46:32,825	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpowvl_yt9.wav
+2025-11-04 08:47:49,782	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmp4_hkg8hu.wav (duration=5s, rate=16000)
+2025-11-04 08:47:50,691	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 08:47:51,316	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmp4_hkg8hu.wav: Am I in mean 5 seconds, do both of them.
+2025-11-04 08:47:51,316	INFO	Dispatching user_input: Am I in mean 5 seconds, do both of them.
+2025-11-04 08:48:04,128	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmp4_hkg8hu.wav
+2025-11-04 08:52:53,189	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmp85jwp2uy.wav (duration=5s, rate=16000)
+2025-11-04 08:52:53,765	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 08:52:54,388	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmp85jwp2uy.wav: Remind me five seconds to work out.
+2025-11-04 08:52:54,388	INFO	Dispatching user_input: Remind me five seconds to work out.
+2025-11-04 08:53:07,090	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmp85jwp2uy.wav
+2025-11-04 09:45:18,826	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpxg_u1pi3.wav (duration=5s, rate=16000)
+2025-11-04 09:45:19,484	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 09:45:20,143	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpxg_u1pi3.wav: Take a screen shot.
+2025-11-04 09:45:20,143	INFO	Dispatching user_input: Take a screen shot.
+2025-11-04 09:45:31,426	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpxg_u1pi3.wav
+2025-11-04 09:45:45,745	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmp8jhjsuuw.wav (duration=5s, rate=16000)
+2025-11-04 09:45:46,935	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 09:45:47,506	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmp8jhjsuuw.wav: Place the windows side by side.
+2025-11-04 09:45:47,506	INFO	Dispatching user_input: Place the windows side by side.
+2025-11-04 09:46:02,459	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmp8jhjsuuw.wav
+2025-11-04 09:46:40,904	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmp0o79lysx.wav (duration=5s, rate=16000)
+2025-11-04 09:46:42,388	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 09:46:42,951	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmp0o79lysx.wav: analyze the WhatsApp chart.
+2025-11-04 09:46:42,951	INFO	Dispatching user_input: analyze the WhatsApp chart.
+2025-11-04 09:46:54,550	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmp0o79lysx.wav
+2025-11-04 09:47:34,726	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmp2ndhv2kf.wav (duration=5s, rate=16000)
+2025-11-04 09:47:35,833	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 09:47:36,487	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmp2ndhv2kf.wav: Don't mind, don't mind, don't in five seconds, we'll work out.
+2025-11-04 09:47:36,487	INFO	Dispatching user_input: Don't mind, don't mind, don't in five seconds, we'll work out.
+2025-11-04 09:47:46,894	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmp2ndhv2kf.wav
+2025-11-04 09:47:57,753	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpacbt_qo5.wav (duration=5s, rate=16000)
+2025-11-04 09:47:58,827	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 09:47:59,414	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpacbt_qo5.wav: set a reminder in 5 seconds to work out.
+2025-11-04 09:47:59,415	INFO	Dispatching user_input: set a reminder in 5 seconds to work out.
+2025-11-04 09:48:10,613	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpacbt_qo5.wav
+2025-11-04 09:48:36,159	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpjq_h2yw1.wav (duration=5s, rate=16000)
+2025-11-04 09:48:37,064	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 09:48:37,622	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpjq_h2yw1.wav: Take a screen shot.
+2025-11-04 09:48:37,623	INFO	Dispatching user_input: Take a screen shot.
+2025-11-04 09:48:53,962	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpjq_h2yw1.wav
+2025-11-04 09:49:22,006	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpwgo6taxf.wav (duration=5s, rate=16000)
+2025-11-04 09:49:23,117	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 09:49:23,690	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpwgo6taxf.wav: Place the windows side by side.
+2025-11-04 09:49:23,691	INFO	Dispatching user_input: Place the windows side by side.
+2025-11-04 09:49:33,756	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpwgo6taxf.wav
+2025-11-04 09:50:05,392	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpz0sshot4.wav (duration=5s, rate=16000)
+2025-11-04 09:50:06,306	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 09:50:06,926	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpz0sshot4.wav: Analyze the WhatsApp chart of GNDU Tech Club.
+2025-11-04 09:50:06,926	INFO	Dispatching user_input: Analyze the WhatsApp chart of GNDU Tech Club.
+2025-11-04 09:50:17,442	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpz0sshot4.wav
+2025-11-04 09:57:25,240	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmp81a2_bx8.wav (duration=5s, rate=16000)
+2025-11-04 09:57:26,227	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 09:57:26,803	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmp81a2_bx8.wav: That a reminder for 5 seconds to sleep.
+2025-11-04 09:57:26,804	INFO	Dispatching user_input: That a reminder for 5 seconds to sleep.
+2025-11-04 09:57:41,255	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmp81a2_bx8.wav
+2025-11-04 10:01:24,463	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmp9jcie10_.wav (duration=5s, rate=16000)
+2025-11-04 10:01:25,110	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:01:25,757	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmp9jcie10_.wav: Reminding 10 seconds to drink water.
+2025-11-04 10:01:25,757	INFO	Dispatching user_input: Reminding 10 seconds to drink water.
+2025-11-04 10:01:36,244	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmp9jcie10_.wav
+2025-11-04 10:05:46,603	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpu9kw_fsm.wav (duration=5s, rate=16000)
+2025-11-04 10:05:47,385	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:05:48,122	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpu9kw_fsm.wav: Remind me in 10 seconds to drink water.
+2025-11-04 10:05:48,123	INFO	Dispatching user_input: Remind me in 10 seconds to drink water.
+2025-11-04 10:05:59,667	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpu9kw_fsm.wav
+2025-11-04 10:08:32,848	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpj2ab4139.wav (duration=5s, rate=16000)
+2025-11-04 10:08:34,001	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:08:34,600	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpj2ab4139.wav: Remind me in 10 seconds to drink water.
+2025-11-04 10:08:34,600	INFO	Dispatching user_input: Remind me in 10 seconds to drink water.
+2025-11-04 10:08:48,551	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpj2ab4139.wav
+2025-11-04 10:20:51,306	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpvk_gwsxu.wav (duration=5s, rate=16000)
+2025-11-04 10:20:52,277	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:20:52,846	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpvk_gwsxu.wav: Place the windows side by side.
+2025-11-04 10:20:52,846	INFO	Dispatching user_input: Place the windows side by side.
+2025-11-04 10:21:02,864	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpvk_gwsxu.wav
+2025-11-04 10:22:48,504	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpfb3_t2jb.wav (duration=5s, rate=16000)
+2025-11-04 10:22:49,152	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:22:49,790	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpfb3_t2jb.wav: Place the windows side by side.
+2025-11-04 10:22:49,791	INFO	Dispatching user_input: Place the windows side by side.
+2025-11-04 10:22:59,793	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpfb3_t2jb.wav
+2025-11-04 10:23:35,628	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpi0fy1jza.wav (duration=5s, rate=16000)
+2025-11-04 10:23:36,741	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:23:37,298	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpi0fy1jza.wav: Place the windows side by side.
+2025-11-04 10:23:37,298	INFO	Dispatching user_input: Place the windows side by side.
+2025-11-04 10:24:02,231	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpi0fy1jza.wav
+2025-11-04 10:25:56,824	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpu4ucj_09.wav (duration=5s, rate=16000)
+2025-11-04 10:25:57,353	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:25:58,002	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpu4ucj_09.wav: Place the windows side by side.
+2025-11-04 10:25:58,002	INFO	Dispatching user_input: Place the windows side by side.
+2025-11-04 10:26:07,030	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpu4ucj_09.wav
+2025-11-04 10:26:32,827	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmph30pugsm.wav (duration=5s, rate=16000)
+2025-11-04 10:26:33,634	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:26:34,194	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmph30pugsm.wav: Place the windows side by side.
+2025-11-04 10:26:34,194	INFO	Dispatching user_input: Place the windows side by side.
+2025-11-04 10:26:43,960	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmph30pugsm.wav
+2025-11-04 10:27:06,846	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpm0rq8oz6.wav (duration=5s, rate=16000)
+2025-11-04 10:27:07,848	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:27:08,430	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpm0rq8oz6.wav: Place the windows side by side.
+2025-11-04 10:27:08,430	INFO	Dispatching user_input: Place the windows side by side.
+2025-11-04 10:27:18,528	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpm0rq8oz6.wav
+2025-11-04 10:27:38,027	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpwlidfq7n.wav (duration=5s, rate=16000)
+2025-11-04 10:27:40,078	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:27:40,671	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpwlidfq7n.wav: Place the windows side by side.
+2025-11-04 10:27:40,672	INFO	Dispatching user_input: Place the windows side by side.
+2025-11-04 10:27:50,698	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpwlidfq7n.wav
+2025-11-04 10:31:50,381	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpsw_el4hx.wav (duration=5s, rate=16000)
+2025-11-04 10:31:51,013	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:31:51,652	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpsw_el4hx.wav: Windows side by side.
+2025-11-04 10:31:51,652	INFO	Dispatching user_input: Windows side by side.
+2025-11-04 10:32:02,768	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpsw_el4hx.wav
+2025-11-04 10:35:20,201	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpbsy7dhi2.wav (duration=5s, rate=16000)
+2025-11-04 10:35:21,163	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:35:21,792	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpbsy7dhi2.wav: Place the windows side by side.
+2025-11-04 10:35:21,793	INFO	Dispatching user_input: Place the windows side by side.
+2025-11-04 10:35:38,638	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpbsy7dhi2.wav
+2025-11-04 10:36:23,739	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpy566874r.wav (duration=5s, rate=16000)
+2025-11-04 10:36:24,878	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 10:36:25,503	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpy566874r.wav: Open the windows side by side.
+2025-11-04 10:36:25,504	INFO	Dispatching user_input: Open the windows side by side.
+2025-11-04 10:36:39,308	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpy566874r.wav

@@ -27,16 +27,31 @@ def _prompt_confirm(prompt: str) -> bool:
         return False
 
 
-def dispatch(user_input: str) -> Tuple[bool, str]:
-    """
-    Resolve an intent to a whitelisted script and execute it safely.
-    Returns (success, message).
-    Behavior:
-      - Uses module docstring embeddings via match_command(...)
-      - If confidence < CONFIDENCE_THRESHOLD, requires explicit confirmation
-      - Performs a dry-run description first, then asks for typed confirmation
-      - Executes script using run_script(...) which validates whitelist and runs via subprocess
-    """
+def dispatch(user_input: str = "", script_name: str = "", args: dict = None) -> Tuple[bool, str]:
+    if script_name and args is not None:
+        print(f"Matched: {script_name} (via structured intent)")
+        print(f"Arguments: {args}")
+        ok, msg = run_script(script_name, args=[], dry_run=True)
+        logger.info("Dry-run for %s -> %s (ok=%s)", script_name, msg, ok)
+        print(msg)
+
+        if not _prompt_confirm("Proceed with executing the script?"):
+            logger.info("User aborted structured execution for %s", script_name)
+            return False, "Execution aborted by user."
+
+        from task_matcher import run_callable
+        success, out = run_callable(script_name, args)
+        if success:
+            logger.info("Script executed: %s", script_name)
+            print("Script executed successfully.\n")
+            print(out)
+            return True, out
+        else:
+            logger.error("Script execution failed: %s -> %s", script_name, out)
+            print(f"Script failed: {out}")
+            return False, out
+
+    # fallback: embedding-based dispatch
     try:
         script_name, score, doc = match_command(user_input)
         logger.info("Matched user_input=%r -> script=%s score=%.4f", user_input, script_name, score)
@@ -44,12 +59,10 @@ def dispatch(user_input: str) -> Tuple[bool, str]:
         logger.exception("Matcher error for input=%r: %s", user_input, e)
         return False, f"Matcher error: {e}"
 
-    # Inform user what was matched
     print(f"Matched: {script_name} (score={score:.3f})")
     if doc:
         print(f"Description: {doc}")
 
-    # If low confidence, require explicit confirmation
     if score < CONFIDENCE_THRESHOLD:
         print("Low confidence for this match.")
         ok = _prompt_confirm("This action has low confidence. Confirm running the matched script?")
@@ -57,18 +70,15 @@ def dispatch(user_input: str) -> Tuple[bool, str]:
             logger.info("User aborted low-confidence match for %s", script_name)
             return False, "Aborted by user (low confidence)."
 
-    # Dry-run first (describe exact command)
     ok, msg = run_script(script_name, args=[], dry_run=True)
     logger.info("Dry-run for %s -> %s (ok=%s)", script_name, msg, ok)
     print(msg)
 
-    # Require explicit confirmation before real run
     ok = _prompt_confirm("Proceed with executing the script?")
     if not ok:
         logger.info("User aborted execution for %s", script_name)
         return False, "Execution aborted by user."
 
-    # Execute for real
     success, out = run_script(script_name, args=[], dry_run=False)
     if success:
         logger.info("Script executed: %s", script_name)

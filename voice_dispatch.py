@@ -4,6 +4,7 @@ import time
 import logging
 import tempfile
 from typing import Optional
+from intent_parser import parse_command
 
 import torch
 import sounddevice as sd
@@ -99,7 +100,12 @@ def transcribe_and_dispatch_once(duration: int = DURATION, samplerate: int = SAM
             return
         print(f"🗣 Transcribed: {user_input}")
         logger.info("Dispatching user_input: %s", user_input)
-        disp.dispatch(user_input)
+        result = parse_command(user_input)
+        if result:
+            script_name, args = result
+            disp.dispatch(script_name=script_name, args=args)
+        else:
+            disp.dispatch(user_input)
     except KeyboardInterrupt:
         logger.info("Interrupted by user during recording/transcription.")
         print("\nInterrupted.")
