@@ -1,0 +1,42 @@
+2025-11-04 05:09:29,599	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpny3dccb5.wav (duration=5s, rate=16000)
+2025-11-04 05:09:30,807	ERROR	Error during transcribe_and_dispatch: 'WhisperModel' object has no attribute 'device'
+Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\voice_dispatch.py", line 91, in transcribe_and_dispatch_once
+    user_input = _transcribe_file(audio_path)
+  File "E:\Projects\aura\AURA\voice_dispatch.py", line 80, in _transcribe_file
+    model = get_model()
+  File "E:\Projects\aura\AURA\voice_dispatch.py", line 60, in get_model
+    logger.info("Loaded WhisperModel size=%s device=%s compute_type=%s", MODEL_SIZE, _model.device, COMPUTE_TYPE)
+                                                                                     ^^^^^^^^^^^^^
+AttributeError: 'WhisperModel' object has no attribute 'device'
+2025-11-04 05:09:30,810	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpny3dccb5.wav
+2025-11-04 05:15:52,464	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpecb2a_i4.wav (duration=5s, rate=16000)
+2025-11-04 05:15:53,475	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 05:15:54,156	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpecb2a_i4.wav: Change the window side by side.
+2025-11-04 05:15:54,157	INFO	Dispatching user_input: Change the window side by side.
+2025-11-04 05:16:06,685	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpecb2a_i4.wav
+2025-11-04 05:19:35,866	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpob55dtqh.wav (duration=5s, rate=16000)
+2025-11-04 05:19:36,765	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 05:19:37,369	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpob55dtqh.wav: against the end dose side by side
+2025-11-04 05:19:37,370	INFO	Dispatching user_input: against the end dose side by side
+2025-11-04 05:19:40,057	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpob55dtqh.wav
+2025-11-04 05:20:23,359	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpkf2x4jey.wav (duration=5s, rate=16000)
+2025-11-04 05:20:23,967	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 05:20:24,637	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpkf2x4jey.wav: Arrange the windows side by side.
+2025-11-04 05:20:24,637	INFO	Dispatching user_input: Arrange the windows side by side.
+2025-11-04 05:20:48,333	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpkf2x4jey.wav
+2025-11-04 05:23:39,986	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpo2l39enk.wav (duration=5s, rate=16000)
+2025-11-04 05:23:40,875	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 05:23:41,485	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpo2l39enk.wav: Arrange the window side by side.
+2025-11-04 05:23:41,486	INFO	Dispatching user_input: Arrange the window side by side.
+2025-11-04 05:23:50,245	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpo2l39enk.wav
+2025-11-04 05:24:03,914	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpeha4z5tz.wav (duration=5s, rate=16000)
+2025-11-04 05:24:04,786	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 05:24:05,405	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpeha4z5tz.wav: Arrange the window side by side.
+2025-11-04 05:24:05,405	INFO	Dispatching user_input: Arrange the window side by side.
+2025-11-04 05:24:19,821	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpeha4z5tz.wav
+2025-11-04 05:26:43,977	INFO	Recorded audio to C:\Users\LOQ\AppData\Local\Temp\tmpxu5dxobf.wav (duration=5s, rate=16000)
+2025-11-04 05:26:45,022	INFO	Loaded WhisperModel size=base.en device=cpu compute_type=int8
+2025-11-04 05:26:45,630	INFO	Transcription result for C:\Users\LOQ\AppData\Local\Temp\tmpxu5dxobf.wav: arrange the windows side by side
+2025-11-04 05:26:45,631	INFO	Dispatching user_input: arrange the windows side by side
+2025-11-04 05:27:06,435	INFO	Removed audio file C:\Users\LOQ\AppData\Local\Temp\tmpxu5dxobf.wav

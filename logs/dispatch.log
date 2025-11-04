@@ -1,0 +1,29 @@
+2025-11-04 05:16:06,683	ERROR	Matcher error for input='Change the window side by side.': tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\dispatcher.py", line 41, in dispatch
+    script_name, score, doc = match_command(user_input)
+                              ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "E:\Projects\aura\AURA\task_matcher.py", line 90, in match_command
+    scripts: List[str] = data["scripts"]
+                         ~~~~^^^^^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+2025-11-04 05:19:40,050	ERROR	Matcher error for input='against the end dose side by side': tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\dispatcher.py", line 41, in dispatch
+    script_name, score, doc = match_command(user_input)
+                              ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "E:\Projects\aura\AURA\task_matcher.py", line 87, in match_command
+    scripts: List[str] = data["scripts"]
+                         ~~~~^^^^^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+2025-11-04 05:20:27,899	INFO	Matched user_input='Arrange the windows side by side.' -> script=screen_tiler_grid.py score=0.2464
+2025-11-04 05:20:34,507	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 05:20:48,332	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 05:23:47,487	INFO	Matched user_input='Arrange the window side by side.' -> script=screen_tiler_grid.py score=0.2628
+2025-11-04 05:23:50,244	INFO	User aborted low-confidence match for screen_tiler_grid.py
+2025-11-04 05:24:11,939	INFO	Matched user_input='Arrange the window side by side.' -> script=screen_tiler_grid.py score=0.2628
+2025-11-04 05:24:16,235	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 05:24:19,820	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 05:26:53,010	INFO	Matched user_input='arrange the windows side by side' -> script=screen_tiler_grid.py score=0.2539
+2025-11-04 05:27:03,027	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 05:27:06,434	INFO	Script executed: screen_tiler_grid.py
