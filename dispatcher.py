@@ -72,7 +72,8 @@ def dispatch(user_input: str) -> Tuple[bool, str]:
     success, out = run_script(script_name, args=[], dry_run=False)
     if success:
         logger.info("Script executed: %s", script_name)
-        print("Script executed successfully.")
+        print("Script executed successfully.\n")
+        print(out)
         return True, out
     else:
         logger.error("Script execution failed: %s -> %s", script_name, out)

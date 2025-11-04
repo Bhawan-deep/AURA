@@ -27,3 +27,147 @@ TypeError: tuple indices must be integers or slices, not str
 2025-11-04 05:26:53,010	INFO	Matched user_input='arrange the windows side by side' -> script=screen_tiler_grid.py score=0.2539
 2025-11-04 05:27:03,027	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
 2025-11-04 05:27:06,434	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 05:37:17,827	INFO	Matched user_input='Take a screenshot.' -> script=screenshot_taker.py score=0.4476
+2025-11-04 05:37:30,289	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 05:37:41,251	ERROR	Script execution failed: screenshot_taker.py -> Script failed: Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\scripts\screenshot_taker.py", line 21, in <module>
+    print("\U0001f4f8 Taking screenshot...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOQ\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4f8' in position 0: character maps to <undefined>
+2025-11-04 05:39:17,496	INFO	Matched user_input='Oh, the technology now is out of there.  Oh, sorry.  Hey, come sit in short.' -> script=screenshot_taker.py score=0.0644
+2025-11-04 05:39:22,628	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 05:39:26,554	ERROR	Script execution failed: screenshot_taker.py -> Script failed: Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\scripts\screenshot_taker.py", line 22, in <module>
+    take_screenshot()
+    ~~~~~~~~~~~~~~~^^
+  File "E:\Projects\aura\AURA\scripts\screenshot_taker.py", line 17, in take_screenshot
+    print(f"\u2705 Screenshot saved as: {file_path}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOQ\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-11-04 05:40:01,384	INFO	Matched user_input='The screen shot.  The side aired me alone.' -> script=screenshot_taker.py score=0.2388
+2025-11-04 05:40:04,760	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 05:40:09,186	ERROR	Script execution failed: screenshot_taker.py -> Script failed: Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\scripts\screenshot_taker.py", line 22, in <module>
+    take_screenshot()
+    ~~~~~~~~~~~~~~~^^
+  File "E:\Projects\aura\AURA\scripts\screenshot_taker.py", line 17, in take_screenshot
+    print(f"\u2705 Screenshot saved as: {file_path}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOQ\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-11-04 05:40:57,059	INFO	Matched user_input='Take a screen shot.' -> script=screenshot_taker.py score=0.4789
+2025-11-04 05:41:00,825	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 05:41:02,910	ERROR	Script execution failed: screenshot_taker.py -> Script failed: Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\scripts\screenshot_taker.py", line 22, in <module>
+    take_screenshot()
+    ~~~~~~~~~~~~~~~^^
+  File "E:\Projects\aura\AURA\scripts\screenshot_taker.py", line 17, in take_screenshot
+    print(f"\u2705 Screenshot saved as: {file_path}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOQ\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-11-04 05:43:42,388	INFO	Matched user_input="Take a screenshot.  Don't be sure, just a screenshot." -> script=screenshot_taker.py score=0.3924
+2025-11-04 05:43:47,769	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 05:43:51,343	INFO	Script executed: screenshot_taker.py
+2025-11-04 05:46:27,460	INFO	Matched user_input='Take a screenshot' -> script=screenshot_taker.py score=0.5747
+2025-11-04 05:46:32,274	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 05:46:34,798	INFO	Script executed: screenshot_taker.py
+2025-11-04 05:48:01,269	INFO	Matched user_input='Take a screenshot' -> script=screenshot_taker.py score=0.5747
+2025-11-04 05:48:05,826	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 05:48:08,091	INFO	Script executed: screenshot_taker.py
+2025-11-04 07:39:00,725	INFO	Matched user_input='Place the windows side by side.' -> script=screen_tiler_grid.py score=0.2312
+2025-11-04 07:39:06,335	INFO	Dry-run for screen_tiler_grid.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screen_tiler_grid.py  (ok=True)
+2025-11-04 07:39:10,981	INFO	Script executed: screen_tiler_grid.py
+2025-11-04 07:40:10,785	INFO	Matched user_input='Take a screenshot.' -> script=screenshot_taker.py score=0.4476
+2025-11-04 07:40:14,241	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 07:40:16,523	INFO	Script executed: screenshot_taker.py
+2025-11-04 08:09:11,503	INFO	Matched user_input="I really don't think that's what I want to do.  Thank you so much." -> script=screenshot_taker.py score=0.0995
+2025-11-04 08:09:19,960	INFO	User aborted low-confidence match for screenshot_taker.py
+2025-11-04 08:14:35,089	INFO	Matched user_input='And' -> script=whatsapp_chat_analyser.py score=0.0754
+2025-11-04 08:14:35,106	INFO	User aborted low-confidence match for whatsapp_chat_analyser.py
+2025-11-04 08:16:47,489	INFO	Matched user_input='Thank you.' -> script=screenshot_taker.py score=0.0694
+2025-11-04 08:16:47,509	INFO	User aborted low-confidence match for screenshot_taker.py
+2025-11-04 08:17:34,307	INFO	Matched user_input='Take a screenshot.' -> script=screenshot_taker.py score=0.4476
+2025-11-04 08:17:36,729	INFO	Dry-run for screenshot_taker.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\screenshot_taker.py  (ok=True)
+2025-11-04 08:17:41,870	INFO	Script executed: screenshot_taker.py
+2025-11-04 08:18:11,180	INFO	Matched user_input='Analyze the WhatsApp chat.' -> script=whatsapp_chat_analyser.py score=0.5862
+2025-11-04 08:18:23,356	INFO	Dry-run for whatsapp_chat_analyser.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\whatsapp_chat_analyser.py  (ok=True)
+2025-11-04 08:18:26,760	ERROR	Script execution failed: whatsapp_chat_analyser.py -> Script failed: Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\scripts\whatsapp_chat_analyser.py", line 25, in <module>
+    import pandas as pd  # pyright: ignore[reportMissingModuleSource]
+    ^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pandas'
+2025-11-04 08:20:34,636	INFO	Matched user_input='Analyze the WhatsApp chat.' -> script=whatsapp_chat_analyser.py score=0.5862
+2025-11-04 08:20:37,813	INFO	Dry-run for whatsapp_chat_analyser.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\whatsapp_chat_analyser.py  (ok=True)
+2025-11-04 08:20:44,253	ERROR	Script execution failed: whatsapp_chat_analyser.py -> Script failed: Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\scripts\whatsapp_chat_analyser.py", line 109, in <module>
+    main()
+    ~~~~^^
+  File "E:\Projects\aura\AURA\scripts\whatsapp_chat_analyser.py", line 91, in main
+    print("\U0001f4c2 Loading chat...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOQ\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c2' in position 0: character maps to <undefined>
+2025-11-04 08:27:24,557	INFO	Matched user_input='Bye bye.  Hello.' -> script=screenshot_taker.py score=0.0537
+2025-11-04 08:27:27,485	INFO	User aborted low-confidence match for screenshot_taker.py
+2025-11-04 08:28:20,421	INFO	Matched user_input='and analyze the words that are added.' -> script=whatsapp_chat_analyser.py score=0.2287
+2025-11-04 08:28:30,268	INFO	Dry-run for whatsapp_chat_analyser.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\whatsapp_chat_analyser.py  (ok=True)
+2025-11-04 08:28:33,471	ERROR	Script execution failed: whatsapp_chat_analyser.py -> Script failed: Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\scripts\whatsapp_chat_analyser.py", line 109, in <module>
+    main()
+    ~~~~^^
+  File "E:\Projects\aura\AURA\scripts\whatsapp_chat_analyser.py", line 101, in main
+    print(f"   - {msg[:40]}... ({count} times)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOQ\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f642' in position 5: character maps to <undefined>
+2025-11-04 08:30:30,206	INFO	Matched user_input='Analyze the word subject.' -> script=whatsapp_chat_analyser.py score=0.1842
+2025-11-04 08:30:35,100	INFO	User aborted low-confidence match for whatsapp_chat_analyser.py
+2025-11-04 08:31:04,066	INFO	Matched user_input='Analyze the WhatsApp chart.' -> script=whatsapp_chat_analyser.py score=0.4933
+2025-11-04 08:31:08,745	INFO	Dry-run for whatsapp_chat_analyser.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\whatsapp_chat_analyser.py  (ok=True)
+2025-11-04 08:31:11,729	ERROR	Script execution failed: whatsapp_chat_analyser.py -> Script failed: Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\scripts\whatsapp_chat_analyser.py", line 109, in <module>
+    main()
+    ~~~~^^
+  File "E:\Projects\aura\AURA\scripts\whatsapp_chat_analyser.py", line 101, in main
+    print(f"   - {msg[:40]}... ({count} times)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOQ\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f642' in position 5: character maps to <undefined>
+2025-11-04 08:32:17,556	INFO	Matched user_input='And then I use the WhatsApp chat.' -> script=whatsapp_chat_analyser.py score=0.3513
+2025-11-04 08:32:20,311	INFO	Dry-run for whatsapp_chat_analyser.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\whatsapp_chat_analyser.py  (ok=True)
+2025-11-04 08:32:23,478	ERROR	Script execution failed: whatsapp_chat_analyser.py -> Script failed: Traceback (most recent call last):
+  File "E:\Projects\aura\AURA\scripts\whatsapp_chat_analyser.py", line 109, in <module>
+    main()
+    ~~~~^^
+  File "E:\Projects\aura\AURA\scripts\whatsapp_chat_analyser.py", line 101, in main
+    print(f"   - {msg[:40]}... ({count} times)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOQ\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f642' in position 5: character maps to <undefined>
+2025-11-04 08:35:07,799	INFO	Matched user_input='Analyze the word subchart.' -> script=whatsapp_chat_analyser.py score=0.1922
+2025-11-04 08:35:11,753	INFO	Dry-run for whatsapp_chat_analyser.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\whatsapp_chat_analyser.py  (ok=True)
+2025-11-04 08:35:15,849	INFO	Script executed: whatsapp_chat_analyser.py
+2025-11-04 08:37:55,226	INFO	Matched user_input='Analyze the workshop chat.' -> script=whatsapp_chat_analyser.py score=0.3494
+2025-11-04 08:37:58,933	INFO	User aborted low-confidence match for whatsapp_chat_analyser.py
+2025-11-04 08:38:38,477	INFO	Matched user_input='Analyze the WhatsApp chat.' -> script=whatsapp_chat_analyser.py score=0.5862
+2025-11-04 08:38:41,319	INFO	Dry-run for whatsapp_chat_analyser.py -> [dry-run] Would run: E:\Projects\aura\AURA\.venv\Scripts\python.exe scripts\whatsapp_chat_analyser.py  (ok=True)
+2025-11-04 08:38:44,473	INFO	Script executed: whatsapp_chat_analyser.py
